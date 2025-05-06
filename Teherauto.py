@@ -1,5 +1,5 @@
 from Auto import Auto # Az Auto fájlból importálom az Auto osztályt
-class Teherauto(Auto): # Teherauto gyereosztály létrehozása, az Auto ősosztályból származtatva
+class Teherauto(Auto): # Teherauto gyerekosztály létrehozása, az Auto ősosztályból származtatva
     def __init__(self, rendszam, tipus, berleti_dij, rakter_kobmeter): # gyerekosztálynak van egy plusz értéke (raktar_kobmeter)
         super().__init__(rendszam, tipus, berleti_dij) # meghívom az ősosztály konstruktorát, hogy a gyerekosztály is megkapja az ősosztály értékeit (rendszam, tipus, berleti_dij)
         # self kulcsszóval eltárolom a paramétert egy osztálypéldányba

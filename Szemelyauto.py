@@ -1,5 +1,5 @@
 from Auto import Auto # Az Auto fájlból importálom az Auto osztályt
-class Szemelyauto(Auto): # Szemelyauto gyereosztály létrehozása, az Auto ősosztályból származtatva
+class Szemelyauto(Auto): # Szemelyauto gyerekosztály létrehozása, az Auto ősosztályból származtatva
     def __init__(self, rendszam, tipus, berleti_dij, ajtok_szama): # gyerekosztálynak van egy plusz értéke (ajtok_szama)
         super().__init__(rendszam, tipus, berleti_dij) # meghívom az ősosztály konstruktorát, hogy a gyerekosztály is megkapja az ősosztály értékeit (rendszam, tipus, berleti_dij)
         # self kulcsszóval eltárolom a paramétert egy osztálypéldányba
