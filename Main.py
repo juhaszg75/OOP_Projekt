@@ -1,4 +1,5 @@
-from Auto import Szemelyauto, Teherauto # Az Auto fájlból importálom a Szemelyauto és Teherauto osztályokat
+from Szemelyauto import Szemelyauto # A Szemelyauto fájlból importálom a Szemelyauto osztályt
+from Teherauto import Teherauto # A Teherauto fájlból importálom a Teherauto osztályt
 from Autokolcsonzo import Autokolcsonzo # Az Autokolcsonzo fájlból importálom az Autokolcsonzo osztályt
 
 def main():
