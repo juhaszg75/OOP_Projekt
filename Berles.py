@@ -1,6 +1,5 @@
 class Berles:  # class kulcsszóval deklarálok egy Berles nevű osztályt
-    def __init__(self, felhasznalo_nev, auto,
-                 datum):  # init kulcsszóval definiálok egy konstruktort. Felruházom atribútumokkal (felhasznalo_nev, auto, datum) ezeket a paramétereket fogja várni példányosításkor az osztályunk
+    def __init__(self, felhasznalo_nev, auto, datum):  # init kulcsszóval definiálok egy konstruktort. Felruházom atribútumokkal (felhasznalo_nev, auto, datum) ezeket a paramétereket fogja várni példányosításkor az osztályunk
         # self kulcsszóval eltárolom a paramétereket egy osztálypéldányba
         self._felhasznalo_nev = felhasznalo_nev  # A bérlő neve (pl. "Kocsis Ferenc") non-public attribútum
         self.auto = auto  # Az autó, amit kibérel
